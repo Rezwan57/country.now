@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+
+body {
+    max-width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-color:hsla(0,0%,5%,1);
+    background-image:
+                     radial-gradient(at 0% 13%, hsla(45,100%,42%,0.1) 0px, transparent 50%),
+                     radial-gradient(at 24% 26%, hsla(0,100%,40%,0.1) 0px, transparent 50%),
+                     radial-gradient(at 51% 45%, hsla(264,100%,42%,0.1) 0px, transparent 50%),
+                     radial-gradient(at 77% 27%, hsla(220,100%,42%,0.1) 0px, transparent 50%),
+                     radial-gradient(at 100% 11%, hsla(168,100%,42%,0.1) 0px, transparent 50%);
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #ffffff00;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    width: 220px;
+}
+
+.nav-link {
+    margin-top: 10px;
+    margin: 5px 15px;
+    font-weight: 900;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #9b9b9b;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ffc14f;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ffc14fad;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 193, 79)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}  
+
+
+
+
+
+/* index main design */
+
+.figure-img{
+    padding-top: 100px;
+}
+
+.heading {
+    color: #ffe9c2;
+    font-weight: 700;
+}
+
+.para {
+    font-size: 12px;
+    color: rgb(140, 140, 140);
+}
+
+
+#search-input {
+    padding: 10px 0px;
+    width: 100%;
+    max-width: 90vh;
+    font-size: 22px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff21;
+    border: none;
+    border-radius: 50px;
+}
+
+#search-btn {
+    padding: 10px 16px;
+    background-color: #ffffff21;
+    font-size: 22px;
+    color: #06a2f1;
+    border-radius: 50px;
+    border: none;
+}
+
+#search-btn:hover {
+    color: #06a2f1;
+    background-color: #dff1ff;
+    transition: ease-in 0.5s;
+}
+
+#back-btn {
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #ffffff21;
+    color: #06a2f1;
+    border-radius: 50px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+/* result design */
+
+.result-search{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.result-bg{
+    padding-bottom: 250px;
+}
+
+.inner-result {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff21;
+}
+
+.head-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #202020;
+    background-color: #ffc14f;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.name-head {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.head-div b{
+    padding: 5px;
+}
+
+
+.flag-div {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.flag-div img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    border-radius: 20px;
+}
+
+.info-div {
+    font-size: 15px;
+    margin: 20px 30px;
+    line-height: 20px;
+}
+
+.info-div h3 {
+    color: #ffc14f;
+    font-size: 21px;
+    font-weight: 700;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+    margin-bottom: 20px;
+}
+
+.info-div b{
+    color: #fff0d3;
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+.info-div p{
+    color: #fff;
+}
+
+.more-details{
+    font-size: 20px;
+    color: #202020;
+    background-color: #ffc14f;
+}
+
+
+.card-body{
+    background-color: #8383834d;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* all Country Starts */
+
+.main-card {
+    background-color: #ffffff21;
+    margin: 100px 10px;
+    padding: 5px 5px;
+    border-radius: 15px;
+}
+
+.main-card h1 {
+    margin: 5px 2px 50px 2px;
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: 700;
+    color: #202020;
+    background-color: #ffc14f;
+    border-radius: 12px;
+}
+
+.card{
+    border-radius: 20px;
+    height: auto;
+}
+
+.card img{
+    border-radius: 20px;
+    height: auto;
+}
+
+.card-body h5{
+    font-size: 25px;
+    color: #ce8600;
+}
+
+.card-body p{
+    color: black;
+}
+
+
+.more-details:hover {
+    cursor: pointer;
+    background-color: #553900;
+    transition: ease 0.3s;
+}
+
+
+
+
+
+
+
+/* About Us page */
+
+.about-section,
+.instruction {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding: 0px 60px;
+}
+
+.about-section h1,
+.instruction h1 {
+    background-color: #ffc14f;
+    color: #202020;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.about-section p {
+    color: #ffe9c2;
+    padding: 20px 120px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.instruction ol li {
+    color: #ffe9c2;
+
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+/* code page */
+
+.accordion{
+    margin: 120px 30px;
+}
+
+
+
+
+
+
+
+/* footer Starts */
+
+
+footer {
+    background-color: #ffc14f;
+}
+
+
+.footer-col h3 {
+    color: #202020;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.footer h3 a {
+    text-decoration: none;
+}
+
+.footer-col a,
+p {
+    color: #202020;
+    line-height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsiveness */
+
+
+@media screen and (max-width: 768px) {
+
+    html{
+        overflow-x: hidden;
+    }
+
+    .info-div {
+        font-size: 14px;
+        margin: 20px 5px;
+    }
+
+    #search-input {
+        font-size: 15px;
+        border-radius: 20px;
+    }
+
+    #search-btn {
+        margin-right: 5px;
+        padding: 0px 14px;
+        font-size: 15px;
+        border-radius: 50px;
+    }
+
+    #back-btn{
+        width: 90px;
+        font-size: 15px;
+        border-radius: 20px;
+    }
+
+    #back-btn b{
+        display: none;
+    }
+
+    .name-head {
+        font-size: 40px;
+    }
+
+    .about-section,
+    .instruction {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 0px 15px;
+    }
+
+    .about-section p {
+        padding: 20px 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .instruction ol li {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+}

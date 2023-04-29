@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Country.Now</title>
+</head>
+
+<body>
+
+
+    <!-- Navbar Starts -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+
+            <img src="assets/logo.png" class="logo px-4">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link active h5" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link h5" href="allcountry.html">All Countries</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link h5" href="https://drive.google.com/drive/folders/1s4h9bWyfJl7VoKwOU4o9q9O3a_e2GtKZ?usp=share_link">Codes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link h5" href="about.html">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link h5" href="https://restcountries.com/">REST Countries</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <div class="container d-flex justify-content-center text-center">
+
+        <div class="section mt-4">
+
+            <img src="assets/wmap.png" class="figure-img img-fluid rounded w-50">
+
+            <h1 class="heading display-1">Search & Explore Countries</h1>
+
+            <p class="para mt-4 ">This website is a comprehensive source of information about countries from all around the world. It provides users with detailed and up-to-date <br> information on each country's geography, government, economy, and more.</p>
+
+
+            <div class="search-area d-flex justify-content-center mt-5">
+
+                    <input class="px-3" id="search-input" type="text" placeholder="Search Country">
+                    
+                    <button class="btn" id="search-btn" type="button" onclick="connect()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="result-bg">
+
+
+        <div id="result">
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- footer section starts -->
+
+    <footer class="footer stick-bottom">
+
+        <div class="row inner-footer d-md-flex p-5">
+
+            <div class="footer-col col footer-links d-flex flex-column">
+                <h3>Important Links</h3>
+                <p><a class="text-decoration-none" href="index.html">Home</a></p>
+                <p><a class="text-decoration-none" href="allcountry.html">All Countries</a> </p>
+                <p><a class="text-decoration-none" href="#">Codes</a> </p>
+                <p><a class="text-decoration-none" href="https://restcountries.com/">REST Countires</a></p>
+            </div>
+
+            <div class="footer-col col per-infos">
+                <h3>Creator Info</h3>
+                <p>Rezwan Habib Youhana</p>
+                <p>Address: Narayanganj - 1400</p>
+                <p>Education: BBA in MIS</p>
+            </div>
+
+            <div class="footer-col col contact-info">
+                <h3>Contact Me</h3>
+                <p>Email: rezwanyouhana@gmail.com</p>
+                <p>Contact No: +8801833632119</p>
+                <p>LinkedIn: rezwan57</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- Alert Design -->
+    <script src="https://kit.fontawesome.com/07e74a95c6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
